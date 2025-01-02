@@ -28,5 +28,3 @@ def list_files(directory):
             files.append(file)
     return files
 
-
-
