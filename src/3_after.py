@@ -3,6 +3,7 @@ import os
 import random
 import re
 import string
+from pprint import pprint
 
 
 def generate_password():
@@ -39,8 +40,9 @@ if __name__ == '__main__':
     # password = generate_password()
     # print("Generated Password:", password)
 
-    word_count = count_words("data/example.txt")
-    print("Word Count:", dict(word_count))
+    # word_count = count_words("data/example.txt")
+    # print("Word Count:", dict(word_count))
 
-    # files = list_files("example_directory")
-    # print("Files in Directory:", files)
+    files = list_files(r"C:\Program Files\Python312\Lib")
+    print("Files in Directory:")
+    pprint(files)
