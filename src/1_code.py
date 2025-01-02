@@ -1,7 +1,7 @@
+import os
+import random
 import re
 from collections import Counter
-import random
-import os
 
 files = os.listdir()
 

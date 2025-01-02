@@ -28,12 +28,3 @@ def list_files(directory):
             files.append(file)
     return files
 
-
-password = generate_password()
-print("Generated Password:", password)
-
-word_count = count_words("example.txt")
-print("Word Count:", dict(word_count))
-
-files = list_files("example_directory")
-print("Files in Directory:", files)
